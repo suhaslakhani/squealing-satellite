@@ -3,10 +3,9 @@ module.exports = {
 	content: ['./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}'],
 	theme: {
 		extend: {
-			fontSize: {
-				sm: '12px',
-				base: '18px',
-				xl: '25px',
+			margin:{
+				4: "20px"
+			
 				},
 			screens: {
 				sm: '480px',
